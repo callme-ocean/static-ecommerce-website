@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.arrange-left {
+  float: left;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.common-button {
+  background-color: #fff;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  height: 40px;
+  min-width: 50px;
+  text-align: center;
+  color: #d19c97;
+}
+
+.common-button span {
+  font-size: 16px;
+  font-weight: 800;
+}
