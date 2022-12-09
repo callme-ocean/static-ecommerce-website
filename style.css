@@ -3,14 +3,15 @@
 }
 
 .logo h1 {
-  font-size: 40px;
+  font-size: 38px;
+  font-weight: 600;
   margin: 0;
 }
 
 .logo h1 span:first-of-type {
-  padding: 5px 10px;
+  padding: 0px 15px;
   border: 1px solid #ddd;
-  margin-right: 5px;
+  margin-right: 0px;
   color: #d19c97;
 }
 
@@ -25,14 +26,19 @@
   border-right: 0;
 }
 
+.search-product input:focus {
+  outline: none;
+}
+
 .search-product button {
   border: 1px solid #ddd;
   height: 40px;
   border-radius: 0;
-  margin: -3px;
-  font-size: 18px;
+  margin: -6px;
+  font-size: 16px;
   color: #d19c97;
   background-color: #fff;
+  padding: 10px;
 }
 
 .selected-product {
