@@ -20,6 +20,10 @@ body {
   width: 50%;
 }
 
+.width-75 {
+  width: 75%;
+}
+
 .next-row {
   clear: both;
 }
