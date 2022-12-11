@@ -20,6 +20,10 @@ body {
   width: 50%;
 }
 
+.next-row {
+  clear: both;
+}
+
 .common-button {
   background-color: #fff;
   border-radius: 0;
