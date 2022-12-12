@@ -174,3 +174,27 @@
   color: #000;
   padding: 10px 15px;
 }
+
+.features-point {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  margin-right: 25px;
+}
+
+.features-point .icon-text-wrap {
+  /* padding-left: 50px; */
+  display: flex;
+  padding: 20px;
+}
+
+.features-point .icon-text-wrap i {
+  font-size: 28px;
+  color: #d19c97;
+}
+
+.features-point .icon-text-wrap span {
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: 600;
+}
