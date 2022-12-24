@@ -132,7 +132,7 @@
 .banner {
   float: left;
   position: relative;
-  height: 400px;
+  height: 370px;
   width: 100%;
   margin-left: 15px;
 }
@@ -219,4 +219,49 @@
 .category-item .category-type h5 {
   margin-bottom: 0;
   font-size: 20px;
+}
+
+.offer-banner {
+  background-color: #edf1ff;
+  margin-bottom: 50px;
+  position: relative;
+  margin-right: 25px;
+  margin-top: 70px;
+}
+
+.offer-banner img {
+  position: absolute;
+  max-width: 50%;
+  max-height: 90%;
+  bottom: 0;
+  z-index: 100;
+  float: left;
+}
+
+.offer-banner .offer-text {
+  text-align: right;
+  padding: 40px;
+}
+
+.offer-banner .offer-text h5 {
+  color: #d19c97;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+}
+
+.offer-banner .offer-text h3 {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.offer-banner .offer-text button {
+  padding: 15px 35px;
+  color: #d19c97;
+  border: 1px solid #d19c97;
+  background-color: transparent;
+  cursor: pointer;
 }
